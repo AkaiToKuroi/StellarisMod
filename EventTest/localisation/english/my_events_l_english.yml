@@ -1,0 +1,17 @@
+﻿l_english:
+  star_analized:0 "Stars analized"
+  my_event_chain_title:0 "Event chain title"
+  my_event_chain_desc:0 "Event chain description"
+
+  my_events.1.title:0 "A Dying Star"
+  my_events.1.desc:0 "Our researchers have discovered a strange behaviour in a nearby star system."
+
+  my_events.1.a:0 "We must investigate!"
+  my_events.1.b:0 "Not our concern."
+
+  my_events.2.title:0 "A newborne star"
+  my_events.2.desc:0 "After analyzing the photosphere our scientists have found a thick layer of an unknown space dust orbiting around the star, making it look dimmer in the sky and causing malfunctions in our telescopes, deceiving us into thinking it was dying. What a relief!"
+  my_events.2.a:0 "Hurray!"
+
+  MY_SPECIAL_PROJECT_TEST:0 "Analyze star photosphere"
+  MY_SPECIAL_PROJECT_TEST_DESC:0 "We must discover what's causing the star's light to fade"

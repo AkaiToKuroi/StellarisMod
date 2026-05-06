@@ -1,0 +1,82 @@
+namespace = my_events
+
+country_event = {
+	id = my_events.1
+	title = my_events.1.title
+	desc = my_events.1.desc
+	picture = GFX_evt_test
+
+	hide_window = no
+	is_triggered_only = yes
+
+	event_chain = my_event_chain
+
+	option = {
+		name = my_events.1.a
+		tooltip = {
+			begin_event_chain = {
+				event_chain = my_event_chain
+				target = this
+			}
+		}
+
+		hidden_effect = {
+			begin_event_chain = {
+				event_chain = my_event_chain
+				target = this
+			}
+			enable_special_project = {
+				name = MY_SPECIAL_PROJECT_TEST
+				location = capital_star
+			}
+			solar_system = {
+				set_star_flag = my_flag
+			}
+		}
+	}
+	
+	option = {
+		name = my_events.1.b
+		hidden_effect = {
+			end_event_chain = my_event_chain
+		}
+	}
+}
+
+ship_event = {
+	id = my_events.2
+	title = my_events.2.title
+	desc = my_events.2.desc
+	picture = GFX_evt_test
+
+	hide_window = no
+	is_triggered_only = yes
+
+	event_chain = my_event_chain
+
+	option = {
+		name = my_events.2.a
+		tooltip = {
+			owner = {
+				end_event_chain = my_event_chain
+				add_resource = {
+					energy = 1000
+				}
+			}
+		}
+
+		hidden_effect = {
+			owner = {
+				end_event_chain = my_event_chain
+			}
+		}
+	}
+
+	after = {
+		owner = {
+			add_resource = {
+				energy = 1000
+			}
+		}
+	}
+}

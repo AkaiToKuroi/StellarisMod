@@ -1,0 +1,31 @@
+special_project = {
+	key = MY_SPECIAL_PROJECT_TEST
+	event_scope = ship_event
+	event_chain = my_event_chain
+
+	picture = GFX_evt_test
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+
+	days_to_research = 10
+
+	tech_department = physics_technology
+
+	requirements = {
+		shipclass_science_ship = 1
+		leader = scientist
+	}
+
+	on_success = {
+		owner = {
+			add_event_chain_counter = {
+				event_chain = my_event_chain
+				counter = test_counter
+				amount = 1
+			}
+		}
+
+		ship_event = {
+			id = my_events.2
+		}
+	}
+}

@@ -1,0 +1,9 @@
+my_event_chain = {
+	icon = "gfx/interface/icons/situation_log/situation_log_main_quest.dds"
+	picture = GFX_evt_test
+	counter = {
+		star_analized = {
+			max = 1
+		}
+	}
+}
