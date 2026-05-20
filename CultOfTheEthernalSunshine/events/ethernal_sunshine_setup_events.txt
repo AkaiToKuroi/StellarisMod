@@ -1,0 +1,32 @@
+namespace = ethernal_sunshine_setup
+
+country_event = {
+	id = ethernal_sunshine_setup.1
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = origin_ethernal_sunshine_cult
+	}
+
+	immediate = {
+		add_modifier = {
+			modifier = es_government_ethic_attraction
+			days = -1
+		}
+	}
+}
+
+country_event = {
+	id = ethernal_sunshine_setup.2
+	hide_window = yes
+	is_triggered_only = yes
+
+	trigger = {
+		has_origin = origin_ethernal_sunshine_cult
+	}
+
+	immediate = {
+		set_name = "Cult of the Ethernal Sunshine"
+	}
+}

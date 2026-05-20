@@ -1,0 +1,26 @@
+origin_ethernal_sunshine_cult = {
+	is_origin = yes
+	icon = "gfx/interface/icons/origins/ethernal_sunshine_origin_icon.dds"
+	picture = GFX_ethernal_sunshine_origin
+
+	advanced_start = no #this origin already grants much Unity
+
+	possible = {
+		ethics = {
+			NOT = {
+				value = ethic_gestalt_consciousness
+			}
+		}
+		civics = {
+			NOR = {
+				value = civic_shadow_council #against aesthetic
+				#value = civic_exalted_priesthood #too much Unity?
+				value = civic_crowdsourcing #against aesthetic and mechanics
+				value = civic_parliamentary_system #against aestethic and mechanics
+				value = civic_fire_cult #against mechanics
+				#value = civic_fanatic_purifiers #removes issues
+			}
+		}
+		species_archetype = { NOT = { value = MACHINE } }
+	}
+}

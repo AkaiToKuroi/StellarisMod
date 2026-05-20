@@ -1,0 +1,16 @@
+﻿l_english:
+  origin_ethernal_sunshine_cult:0 "Cult of the Ethernal Sunshine"
+  origin_ethernal_sunshine_cult_desc:0 "This society reached stability through faith and devotion. (REPLACE)"
+
+  ########################################
+  # MODIFIERS
+  ########################################
+
+  es_government_ethic_attraction:0 "Sets pops' government ethics attraction to 80%"
+
+  ########################################
+  # FACTION EVENTS
+  ########################################
+  factions.2.title:0 "A New Age Has Begun"
+  factions.2.desc:0 "From the highest spheres of [Root.Owner.GetName] society, a group of hooded erudites has assembled in a faction to represent the people's needs in this age of cosmic consciousness. They call themselves the §HCult of the Ethernal Sunshine§!, and they have declared that their purpose is to make sure that all of the population is aligned with our ethics. Their leader declared: "As long as we remain on the same side, the side of Order and Stability, we'll fight along for the good of [Root.Owner.GetName]. Betray us, and prepare to face the consequences.\n\nThey seem to have the support of the vast majority of the population."
+  factions.2.a:0 "May the Light guide us."
