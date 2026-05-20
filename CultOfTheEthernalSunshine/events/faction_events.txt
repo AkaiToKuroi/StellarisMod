@@ -36,9 +36,8 @@ pop_faction_event = {
 					}
 				}
 				set_country_flag = first_faction
-
+				
 				from = {
-					set_pop_faction_flag = es_cult_faction
 					set_name = "Cult of the Eternal Sunshine"
 					save_event_target_as = es_cult_faction_target
 				}
