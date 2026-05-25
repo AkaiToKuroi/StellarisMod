@@ -59,6 +59,12 @@ progressive = {
 
 	is_potential = {
 		is_faction_allowed = yes
+		owner = {
+			NOT = {
+				has_country_flag = cult_is_xenoist
+			}
+		}
+		
 	}
 
 	parameters = {
@@ -76,12 +82,25 @@ progressive = {
 	}
 
 	can_join_faction = {
-		is_shackled_robot = no
-		can_think = yes
-	}
+    is_shackled_robot = no
+    can_think = yes
+    owner = {
+        NOT = { has_country_flag = cult_is_xenoist }
+    }
+}
 
 	attraction = {
 		base = 150
+
+		modifier = {
+        	factor = 0.0
+        	owner = { has_country_flag = cult_is_xenoist }
+    	}
+
+		modifier = {
+			factor = 10.0 
+			has_pop_faction_flag = es_cult
+		} 
 
 		modifier = {
 			factor = 1.25

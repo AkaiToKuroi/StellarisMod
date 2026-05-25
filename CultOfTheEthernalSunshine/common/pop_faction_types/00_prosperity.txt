@@ -84,6 +84,11 @@ prosperity = {
 		base = 100
 
 		modifier = {
+			factor = 10.0
+			has_pop_faction_flag = es_cult
+		} 
+
+		modifier = {
 			factor = 1.25
 			exists = from
 			from = {
