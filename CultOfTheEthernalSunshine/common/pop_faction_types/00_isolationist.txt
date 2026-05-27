@@ -59,6 +59,12 @@ isolationist = {
 
 	is_potential = {
 		is_faction_allowed = yes
+		owner = {
+			NOR = {
+				has_country_flag = cult_is_supremacist
+				has_country_flag = cult_is_prosperity
+			}
+		}
 	}
 
 	parameters = {

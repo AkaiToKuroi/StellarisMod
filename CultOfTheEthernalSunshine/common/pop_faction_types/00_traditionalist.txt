@@ -86,10 +86,13 @@ traditionalist = {
 
 	is_potential = {
 		is_faction_allowed = yes
-		NOR = {
-			has_origin = origin_cybernetic_creed
-			has_civic = civic_pyrolatry
+		owner = {
+			NOR = {
+				has_origin = origin_cybernetic_creed
+				has_civic = civic_pyrolatry
+			}
 		}
+		
 	}
 
 	parameters = {

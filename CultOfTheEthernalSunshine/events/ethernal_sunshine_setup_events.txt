@@ -14,7 +14,7 @@ country_event = {
 			modifier = es_government_ethic_attraction
 			days = -1
 		}
-		set_country_flag = cult_is_xenoist
+		set_country_flag = cult_ethic_xenoist
 	}
 }
 

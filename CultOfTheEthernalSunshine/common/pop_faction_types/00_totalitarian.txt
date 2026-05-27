@@ -59,6 +59,11 @@ totalitarian = {
 
 	is_potential = {
 		is_faction_allowed = yes
+		owner = {
+			NOT = {
+				has_country_flag = cult_is_imperialist
+			}
+		}
 	}
 
 	parameters = {

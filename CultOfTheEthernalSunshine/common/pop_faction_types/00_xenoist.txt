@@ -59,6 +59,12 @@ xenoist = {
 
 	is_potential = {
 		is_faction_allowed = yes
+		owner = {
+			NOR = {
+				has_country_flag = cult_is_prosperity
+				has_country_flag = cult_is_progressive
+			}
+		}
 	}
 
 	parameters = {

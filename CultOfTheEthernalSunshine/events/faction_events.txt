@@ -46,34 +46,36 @@ pop_faction_event = {
 						trigger = is_pop_faction_type
 
 						imperialist = {
-							owner = { set_country_flag = cult_is_imperialist}
+							owner = { set_country_flag = cult_is_imperialist }
 						}
 						isolationist = {
-							owner = {set_country_flag = cult_is_isolationist}
+							owner = { set_country_flag = cult_is_isolationist }
 						}
 						progressive = {
-							owner = {set_country_flag = cult_is_progressive}
+							owner = { set_country_flag = cult_is_progressive }
 						}
 						prosperity = {
-							owner = {set_country_flag = cult_is_prosperity}
+							owner = { set_country_flag = cult_is_prosperity }
 						}
 						supremacist = {
-							owner = {set_country_flag = cult_is_supremacist}
+							owner = { set_country_flag = cult_is_supremacist }
 						}
 						technologist = {
-							owner = {set_country_flag = cult_is_technologist}
+							owner = { set_country_flag = cult_is_technologist }
 						}
 						totalitarian = {
-							owner = {set_country_flag = cult_is_totalitarian}
+							owner = { set_country_flag = cult_is_totalitarian }
 						}
 						traditionalist = {
-							owner = {set_country_flag = cult_is_traditionalist}
+							owner = { set_country_flag = cult_is_traditionalist }
 						}
 						xenoist = {
-							owner = {set_country_flag = cult_is_xenoist}
+							owner = { set_country_flag = cult_is_xenoist }
 						}
 					}
 				}
+
+				set_variable = {which = "cult_requests_tier" value = 1}
 
 				from = { pop_faction_event = { id = factions.2 } }
 			}

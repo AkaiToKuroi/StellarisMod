@@ -12,6 +12,12 @@ prosperity = {
 
 	is_potential = {
 		is_faction_allowed = yes
+		owner = {
+			NOR = {
+				has_country_flag = cult_is_isolationist
+				has_country_flag = cult_is_xenoist
+			}
+		}
 	}
 
 	parameters = {
