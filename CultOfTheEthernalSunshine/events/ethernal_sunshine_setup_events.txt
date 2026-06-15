@@ -14,20 +14,5 @@ country_event = {
 			modifier = es_government_ethic_attraction
 			days = -1
 		}
-		set_country_flag = cult_ethic_xenoist
-	}
-}
-
-country_event = {
-	id = ethernal_sunshine_setup.2
-	hide_window = yes
-	is_triggered_only = yes
-
-	trigger = {
-		has_origin = origin_ethernal_sunshine_cult
-	}
-
-	immediate = {
-		set_name = "Cult of the Ethernal Sunshine"
 	}
 }

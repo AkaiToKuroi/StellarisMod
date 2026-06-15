@@ -6,11 +6,42 @@
   # MODIFIERS
   ########################################
 
-  es_government_ethic_attraction:0 "Sets pops' government ethics attraction to 80%"
+  es_government_ethic_attraction:0 "Sets pops' government ethics attraction to 60%"
+  cult_disappointment_modifier:0 "Cult Disappointment"
+  cult_disappointment_modifier_desc:0 "The cult is deeply saddened by our failure to satisfy their demands, creating unrest across our worlds."
+  cult_disappointment_modifier.tooltip:0 "The Cult will gain the §Y$cult_disappointment_modifier$§! modifier for 2 years."
 
   ########################################
   # FACTION EVENTS
   ########################################
   factions.2.title:0 "A New Age Has Begun"
-  factions.2.desc:0 "From the highest spheres of [Root.Owner.GetName] society, a group of hooded erudites has assembled in a faction to represent the people's needs in this age of cosmic consciousness. They call themselves the §HCult of the Ethernal Sunshine§!, and they have declared that their purpose is to make sure that all of the population is aligned with our ethics. Their leader declared: "As long as we remain on the same side, the side of Order and Stability, we'll fight along for the good of [Root.Owner.GetName]. Betray us, and prepare to face the consequences.\n\nThey seem to have the support of the vast majority of the population."
+  factions.2.desc:0 "From the highest spheres of [Root.Owner.GetName] society, a group of hooded erudites has assembled in a faction to represent the people's needs in this age of cosmic consciousness. They call themselves the §HCult of the Ethernal Sunshine§!, and they have declared that their purpose is to make sure that all of the population is aligned with our ethics. Their leader declared: "As long as we remain on the same side, the side of Order and Stability, we'll fight along for the good of [Root.Owner.GetName]. Betray us, and prepare to face the consequences."\n\nThey seem to have the support of the vast majority of the population."
   factions.2.a:0 "May the Light guide us."
+
+  ########################################
+  # REQUESTS
+  ########################################
+  es_req.101.title:0 "Celebrative feast"
+  es_req.101.desc:0 "We have received a request from the §HCult of the Ethernal Sunshine§!:\n"In order to commemorate the anniversary of the establishment of order and progress thanks to the guidance of our Cult, we demand a great feast worthy of a prosperous universe.""
+  es_req.101.a:0 "Let them access the food supplies."
+  es_req.101.b:0 "We won't waste food resources in parties"
+
+  es_req.102.title:0 "Public Donations"
+  es_req.102.desc:0 "We have received a request from the §HCult of the Ethernal Sunshine§!:\n"In recognition of our shared prosperity, the faithful call upon the Empire to extend its generosity to those in need. A coordinated act of redistribution will strengthen the bonds between citizens and state.""
+  es_req.102.a:0 "Allocate emergency funds."
+  es_req.102.b:0 "The treasury cannot support this expense."
+
+  es_req.103.title:0 "Cultural Sponsorship"
+  es_req.103.desc:0 "We have received a request from the §HCult of the Ethernal Sunshine§!:\n"The Cult requests the allocation of resources toward cultural enrichment initiatives. Art, expression, and celebration of unity shall reinforce the guiding ideals of our civilization.""
+  es_req.103.a:0 "Finance the celebrations."
+  es_req.103.b:0 "Such extravagance is unnecessary."
+
+  es_req.104.title:0 "Monument Restoration"
+  es_req.104.desc:0 "We have received a request from the §HCult of the Ethernal Sunshine§!:\n"Several sites of cultural and symbolic importance require restoration. The Cult urges the Empire to preserve these monuments as enduring reminders of our shared ascent.""
+  es_req.104.a:0 "Authorize restoration works."
+  es_req.104.b:0 "These monuments can wait."
+
+  es_req.105.title:0 "Sacred Reserve"
+  es_req.105.desc:0 We have received a request from the §HCult of the Ethernal Sunshine§!:\n"The Cult advises the establishment of strategic reserves to ensure stability in times of uncertainty. Preparation is the highest expression of foresight.""
+  es_req.105.a:0 "Contribute resources."
+  es_req.105.b:0 "We need those resources elsewhere."

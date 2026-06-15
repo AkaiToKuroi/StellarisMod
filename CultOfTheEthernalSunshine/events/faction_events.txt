@@ -36,11 +36,12 @@ pop_faction_event = {
 					}
 				}
 				set_country_flag = first_faction
+				set_country_flag = es_cult_established
 				
 				from = {
 					set_name = "Cult of the Eternal Sunshine"
 					set_pop_faction_flag = es_cult
-					save_event_target_as = es_cult_faction_target
+					save_global_event_target_as = es_cult_faction_target
 
 					switch = {
 						trigger = is_pop_faction_type
@@ -71,6 +72,13 @@ pop_faction_event = {
 						}
 						xenoist = {
 							owner = { set_country_flag = cult_is_xenoist }
+						}
+					}
+
+					owner = {
+						country_event = {
+							id = ethernal_sunshine_cult_requests.0
+							days = 360
 						}
 					}
 				}
