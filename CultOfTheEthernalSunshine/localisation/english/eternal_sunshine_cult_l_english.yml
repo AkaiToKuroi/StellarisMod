@@ -1,0 +1,160 @@
+﻿l_english:
+  origin_eternal_sunshine_cult:0 "Cult of the Eternal Sunshine"
+  origin_eternal_sunshine_cult_desc:0 "This society reached stability through faith and devotion. (REPLACE)"
+
+  ########################################
+  # MODIFIERS
+  ########################################
+
+  es_government_ethic_attraction:0 "Sets pops' government ethics attraction to 60%"
+  cult_disappointment_modifier:0 "Cult Disappointment"
+
+  cult_disappointment_modifier_desc:0 "The cult is deeply saddened by our failure to satisfy their demands, creating unrest across our worlds."
+  cult_disappointment_modifier.tooltip:0 "The Cult will gain the §Y$cult_disappointment_modifier$§! modifier for 2 years."
+
+  es_show_of_strenght:0 "Increase ships fire rate and hull by 10%"
+
+  es_lack_of_energy:0 "Increase Happiness by 10% but reduces Energy production by 10%"
+
+  es_research_symposium:0 "Increase research speed by 10%"
+
+  es_fleet_pilgrimage:0 "Increase naval experience gain by 10%"
+
+  es_festival_of_unity:0 "Increase stability and happiness by 5% on all owned planets"
+
+  es_civic_education_program:0 "Increase all Pop happiness by 10%"
+
+  es_administrative_reform:0 "Increase Unity production by 10%"
+
+  es_colonization_initiative:0 "Increase colony development speed by 25%"
+
+  es_hall_of_heroes:0 "Increase Unity production by 15% but reduces energy production by 5%"
+
+  es_trade_fair:0 "Increase Trade Value by 10%"
+
+  es_planetary_beautification:0 "Increase Amenities on all planets by 10%"
+
+  es_strategic_defensive_investment:0 "Increase ships' Hull and Shields by 10% each"
+
+  ########################################
+  # FACTION EVENTS
+  ########################################
+  factions.2.title:0 "A New Age Has Begun"
+  factions.2.desc:0 "From the highest spheres of [Root.Owner.GetName] society, a group of hooded erudites has assembled in a faction to represent the people's needs in this age of cosmic consciousness. They call themselves the §HCult of the Eternal Sunshine§!, and they have declared that their purpose is to make sure that all of the population is aligned with our ethics. Their leader declared: "As long as we remain on the same side, the side of Order and Stability, we'll fight along for the good of [Root.Owner.GetName]. Betray us, and prepare to face the consequences."\n\nThey seem to have the support of the vast majority of the population."
+  factions.2.a:0 "May the Light guide us."
+
+  ########################################
+  # REQUESTS
+  ########################################
+  es_req.101.title:0 "Celebrative feast"
+  es_req.101.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:\n"In order to commemorate the anniversary of the establishment of order and progress thanks to the guidance of our Cult, we demand a great feast worthy of a prosperous universe.""
+  es_req.101.a:0 "Let them access the food supplies."
+  es_req.101.b:0 "We won't waste food resources in parties"
+
+  es_req.102.title:0 "Public Donations"
+  es_req.102.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:\n"In recognition of our shared prosperity, the faithful call upon the Empire to extend its generosity to those in need. A coordinated act of redistribution will strengthen the bonds between citizens and state.""
+  es_req.102.a:0 "Allocate emergency funds."
+  es_req.102.b:0 "The treasury cannot support this expense."
+
+  es_req.103.title:0 "Cultural Sponsorship"
+  es_req.103.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:\n"The Cult requests the allocation of resources toward cultural enrichment initiatives. Art, expression, and celebration of unity shall reinforce the guiding ideals of our civilization.""
+  es_req.103.a:0 "Finance the celebrations."
+  es_req.103.b:0 "Such extravagance is unnecessary."
+
+  es_req.104.title:0 "Monument Restoration"
+  es_req.104.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:\n"Several sites of cultural and symbolic importance require restoration. The Cult urges the Empire to preserve these monuments as enduring reminders of our shared ascent.""
+  es_req.104.a:0 "Authorize restoration works."
+  es_req.104.b:0 "These monuments can wait."
+
+  es_req.105.title:0 "Sacred Reserve"
+  es_req.105.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:\n"The Cult advises the establishment of strategic reserves to ensure stability in times of uncertainty. Preparation is the highest expression of foresight.""
+  es_req.105.a:0 "Contribute resources."
+  es_req.105.b:0 "We need those resources elsewhere."
+
+ es_req.106.title:0 "Show of strenght"
+ es_req.106.desc:0"We have received a request from the §HCult of the Eternal Sunshine§!:/n"We must be sure that no external entity shall event try to interfere with our glorious revolution. The fleet must be reinforced to stand any enemy"."
+ es_req.106.a:0 "Reinforce the ship"
+ es_req.106.b:0 "They're just acting paranoiac"
+
+ es_req.107.title:0 "Lack of energy"
+ es_req.107.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"We are planning a big ceremony to recall the anniversary of our glorious revolution. The featured installation require much energy, but no price is unworthy for our noble group.""
+ es_req.107.a:0 "Diverge the electricity to sustain them."
+ es_req.107.b:0 "We can't waste energy."
+
+ es_req.108.title:0 "Research Symposium"
+ es_req.108.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"Knowledge is the foundation upon which every prosperous civilization is built. The Cult therefore requests the organization of a grand symposium where scholars, engineers, and visionaries may exchange ideas free from the distractions of daily administration. The enlightenment gained today shall illuminate the path of tomorrow.""
+ es_req.108.a:0 "Fund the symposium."
+ es_req.108.b:0 "Research can proceed without festivities."
+
+ es_req.109.title:0 "Astronomical Survey"
+ es_req.109.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The heavens remain vast and largely unexplored. Countless opportunities, dangers, and revelations await among the stars. The Cult urges the Empire to sponsor a dedicated astronomical survey so that our gaze may reach farther than ever before.""
+ es_req.109.a:0 "Finance observatories."
+ es_req.109.b:0 "We have enough data."
+
+ es_req.110.title:0 "Biological Census"
+ es_req.110.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"A wise government must understand the people it guides. The Cult proposes a comprehensive census of biological and demographic data across the Empire. Through deeper understanding of our citizens, we may better secure their prosperity and health.""
+ es_req.110.a:0 "Support population studies."
+ es_req.110.b:0 "Unnecessary bureaucracy."
+
+ es_req.111.title:0 "Industrial Innovation"
+ es_req.111.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"Progress cannot be sustained through tradition alone. The Cult recommends a temporary redirection of resources toward industrial experimentation and modernization. New production methods developed today shall strengthen the Empire for decades to come.""
+ es_req.111.a:0 "Subsidize engineers."
+ es_req.111.b:0 "Industry can manage itself."
+
+ es_req.112.title:0 "Fleet Pilgrimage"
+ es_req.112.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The guardians of our civilization must never forget the ideals they defend. The Cult proposes a ceremonial pilgrimage for selected fleet crews, allowing them to visit sites of historical significance and renew their dedication to the Empire's sacred mission.""
+ es_req.112.a:0 "Organize fleet ceremonies."
+ es_req.112.b:0 "Waste of military resources."
+
+ es_req.113.title:0 "Festival of Unity"
+ es_req.113.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The strength of a civilization lies not merely in its fleets or industries, but in the shared spirit of its people. The Cult calls for a grand festival spanning every world under our banner, celebrating our common destiny and reaffirming the bonds that unite us.""
+ es_req.113.a:0 "Sponsor empire-wide celebrations."
+ es_req.113.b:0 "Citizens can celebrate alone."
+
+ es_req.114.title:0 "Civic Education Program"
+ es_req.114.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The future belongs to informed citizens. The Cult proposes the expansion of educational initiatives designed to spread civic awareness, historical understanding, and devotion to the principles that have guided our rise to greatness.""
+ es_req.114.a:0 "Expand ideological education."
+ es_req.114.b:0 "Propaganda is unnecessary."
+
+ es_req.115.title:0 "Recruitment Campaign"
+ es_req.115.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The Empire's future depends upon those willing to serve it. The Cult recommends a galaxy-wide recruitment campaign to inspire a new generation of administrators, officers, researchers, and public servants.""
+ es_req.115.a:0 "Promote public service."
+ es_req.115.b:0 "We need workers, not burocrats."
+
+ es_req.116.title:0 "Administrative Reform"
+ es_req.116.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"As our domains expand, so too must the institutions that govern them. The Cult advises a thorough review of administrative procedures, eliminating inefficiencies and ensuring that every resource reaches its intended destination.""
+ es_req.116.a:0 "Expand bureaucracy."
+ es_req.116.b:0 "We won't lower our people living standards for this."
+
+ es_req.117.title:0 "Colonization Initiative"
+ es_req.117.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The stars were not placed before us to remain untouched. The Cult urges the Empire to renew its commitment to expansion and settlement. New worlds offer not only resources, but opportunities for future generations to flourish.""
+ es_req.117.a:0 "Encourage frontier settlement."
+ es_req.117.b:0 "Too expensive."
+
+ es_req.118.title:0 "Hall of Heroes"
+ es_req.118.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"Too often the sacrifices of great individuals fade into obscurity. The Cult requests the construction of a Hall of Heroes where the achievements of explorers, scientists, soldiers, and visionaries may be preserved for eternity.""
+ es_req.118.a:0 "Shall we never forget them."
+ es_req.118.b:0 "Refuse."
+
+ es_req.119.title:0 "Trade Fair"
+ es_req.119.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"Prosperity grows when ideas and goods flow freely between communities. The Cult proposes an imperial trade fair bringing together merchants, artisans, and entrepreneurs from across the Empire to strengthen economic ties and stimulate commerce.""
+ es_req.119.a:0 "Fund interstellar commerce."
+ es_req.119.b:0 "Commerce is secondary."
+
+ es_req.120.title:0 "Planetary Beautification"
+ es_req.120.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"The worlds we inhabit should reflect the greatness of our civilization. The Cult requests funding for public works, gardens, monuments, and urban improvements that shall inspire pride among citizens and visitors alike.""
+ es_req.120.a:0 "Improve public spaces."
+ es_req.120.b:0 "Cosmetic spending is wasteful."
+
+ es_req.121.title:0 "Strategic Defensive Investment"
+ es_req.121.desc:0 "We have received a request from the §HCult of the Eternal Sunshine§!:/n"A prosperous Empire must never be caught unprepared. The Cult advises the expansion of strategic stockpiles to ensure stability during future crises. Prudence today shall safeguard abundance tomorrow.""
+ es_req.121.a:0 "Expand stockpiles."
+ es_req.121.b:0 "Unnecessary expense."
+
+  ########################################
+  # EVENT CHAIN
+  ########################################
+  es_her.0.title: "The Gesture"
+  es_her.0.desc: "A worker aboard an orbital mining facility suffered what medical personnel initially classified as an involuntary neurological episode. Witnesses describe her abruptly ceasing all activity before turning toward the night sky and raising one arm. She remained in that position for nearly six minutes.\nWhen questioned, she repeatedly uttered a phrase that has so far resisted interpretation:
+  "§YCasar Soc§!.\nWithin days, similar incidents were reported throughout the empire. The afflicted vary considerably in species, age, occupation, and social standing. Some recover immediately. Others retain no memory of the event. A small number have refused to speak of anything else since.\nThe phenomenon would ordinarily be dismissed as a case of mass hysteria, were it not for one unusual detail.\nThe Cult of the Eternal Sunshine has reacted with unexpected concern. Their archivists have reportedly reviewed every preserved revelation, commentary, and sacred text in their possession. No reference to Casar Soc has been found.\nThe §HHigh Luminaries§! have therefore issued a formal request for an investigation./n"There can be no truth beyond the Eternal Sunshine. If this name carries meaning, it must be a lie.""
+  es_her.0.a: "Trace their gaze."

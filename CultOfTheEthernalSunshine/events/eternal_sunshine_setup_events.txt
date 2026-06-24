@@ -1,12 +1,12 @@
-namespace = ethernal_sunshine_setup
+namespace = eternal_sunshine_setup
 
 country_event = {
-	id = ethernal_sunshine_setup.1
+	id = eternal_sunshine_setup.1
 	hide_window = yes
 	is_triggered_only = yes
 
 	trigger = {
-		has_origin = origin_ethernal_sunshine_cult
+		has_origin = origin_eternal_sunshine_cult
 	}
 
 	immediate = {

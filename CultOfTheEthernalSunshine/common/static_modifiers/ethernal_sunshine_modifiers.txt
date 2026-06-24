@@ -1,9 +1,0 @@
-es_government_ethic_attraction = {
-	pop_government_ethic_attraction = 0.6
-}
-
-cult_disappointment_modifier = {
-	icon = "gfx/interface/icons/planet_modifiers/disappointed_cult_icon.png"
-	icon_frame = 3
-	faction_approval = -0.25
-}

@@ -3,5 +3,5 @@ tags={
 	"Events"
 	"Gameplay"
 }
-name="Cult of the Ethernal Sunshine"
+name="Cult of the Eternal Sunshine"
 supported_version="v4.3.7"

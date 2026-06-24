@@ -1,0 +1,79 @@
+es_government_ethic_attraction = {
+	pop_government_ethic_attraction = 0.6
+}
+
+cult_disappointment_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/disappointed_cult_icon.png"
+	icon_frame = 3
+	faction_approval = -0.25
+}
+
+es_show_of_strenght = {
+	icon = "gfx/interface/icons/modifiers/mod_owned_ship_fire_rate_mult.dds"
+	ship_fire_rate_mult = 0.1
+	ship_hull_mult = 0.1
+}
+
+es_lack_of_energy = {
+	icon = "gfx/interface/icons/modifiers/mod_energy_produces_mult_negative.dds"
+	country_energy_produces_mult = -0.1
+	pop_happiness = 0.1
+}
+
+es_research_symposium = {
+	icon = "gfx/interface/icons/modifiers/mod_country_all_tech_research_speed.dds"
+	all_technology_research_speed = 0.1
+}
+
+es_fleet_pilgrimage = {
+	icon = "gfx/interface/icons/modifiers/mod_ship_experience_gain_mult.dds"
+	ship_experience_gain_mult = 0.1
+}
+
+es_festival_of_unity = {
+	icon = "gfx/interface/icons/modifiers/mod_planet_stability_mult.dds"
+	planet_stability_mult = 0.1
+	pop_happiness = 0.05
+}
+
+es_civic_education_program = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_happiness.dds"
+	pop_happiness = 0.1
+}
+
+es_recruitment_campaign = {
+	icon = "gfx/interface/icons/modifiers/mod_pop_happiness.dds"
+	pop_happiness = 0.1
+}
+
+es_administrative_reform = {
+	icon = "gfx/interface/icons/modifiers/mod_resource_unity_mult.dds"
+	country_unity_produces_mult = 0.1
+}
+
+es_colonization_initiative = {
+	icon = "gfx/interface/icons/modifiers/mod_planet_colony_development_speed_mult.dds"
+	planet_colony_development_speed_mult = 0.25
+}
+
+es_hall_of_heroes = {
+	icon = "gfx/interface/icons/modifiers/mod_unity_produces_mult.dds"
+	country_energy_produces_mult = -0.05
+	country_unity_produces_mult = 0.15
+}
+
+es_trade_fair = {
+	icon = "gfx/interface/icons/modifiers/mod_trade_value_mult.dds"
+	country_trade_fee = -0.1
+}
+
+es_planetary_beautification = {
+	icon = "gfx/interface/icons/modifiers/mod_planet_amenities_mult.dds"
+	planet_amenities_mult = 0.1
+}
+
+es_strategic_defensive_investment = {
+	icon = "gfx/interface/icons/modifiers/mod_ship_hull_mult.dds"
+	ship_hull_mult = 0.1
+	ship_shield_mult = 0.1
+}

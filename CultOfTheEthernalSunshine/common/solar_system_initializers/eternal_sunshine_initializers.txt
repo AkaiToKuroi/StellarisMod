@@ -1,0 +1,48 @@
+eternal_sunshine_system = {
+    name = "Ila Rahal" 
+    class = sc_black_hole
+
+	usage = misc_system_init
+	usage_odds = 0
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 80
+	}
+
+	planet = {
+		name = "Ila"
+		class = pc_black_hole
+		size = { min = 20 max = 25}
+		orbit_distance = 15
+		orbit_angle = {min = 90 max = 270}
+	}
+
+	planet = {
+		name = "Rahal"
+		class = pc_black_hole
+		size = { min = 5 max = 10}
+		orbit_distance = 10
+		orbit_angle = 180
+	}
+
+	change_orbit = 60
+
+	planet = {
+		name = "Casar Soc"
+		class = pc_barren
+		orbit_angle = {min = 90 max = 270}
+
+		init_effect = {
+			prevent_anomaly = yes
+			set_planet_flag = casar_soc
+			save_global_event_target_as = casar_soc
+			create_archaeological_site = rubricator_digsite
+		}
+	}
+
+	asteroid_belt = {
+		type = rocky_asteroid_belt
+		radius = 120
+	}
+}

@@ -77,7 +77,7 @@ pop_faction_event = {
 
 					owner = {
 						country_event = {
-							id = ethernal_sunshine_cult_requests.0
+							id = eternal_sunshine_cult_requests.0
 							days = 360
 						}
 					}
@@ -273,7 +273,7 @@ pop_faction_event = {
 	title = factions.2.title
 	desc = factions.2.desc
 
-	picture = GFX_ethernal_sunshine_cult_created
+	picture = GFX_eternal_sunshine_cult_created
 	show_sound = event_factions
 
 	is_triggered_only = yes

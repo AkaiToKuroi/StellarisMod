@@ -1,7 +1,7 @@
-origin_ethernal_sunshine_cult = {
+origin_eternal_sunshine_cult = {
 	is_origin = yes
-	icon = "gfx/interface/icons/origins/ethernal_sunshine_origin_icon.dds"
-	picture = GFX_ethernal_sunshine_origin
+	icon = "gfx/interface/icons/origins/eternal_sunshine_origin_icon.dds"
+	picture = GFX_eternal_sunshine_origin
 
 	advanced_start = no #this origin already grants much Unity
 
