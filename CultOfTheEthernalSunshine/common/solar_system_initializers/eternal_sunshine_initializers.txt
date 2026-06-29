@@ -38,11 +38,16 @@ eternal_sunshine_system = {
 			set_planet_flag = casar_soc
 			save_global_event_target_as = casar_soc
 			create_archaeological_site = rubricator_digsite
+			save_global_event_target_as = casar_soc
 		}
 	}
 
 	asteroid_belt = {
 		type = rocky_asteroid_belt
 		radius = 120
+	}
+
+	init_effect = {
+		save_global_event_target_as = ila_rahal
 	}
 }

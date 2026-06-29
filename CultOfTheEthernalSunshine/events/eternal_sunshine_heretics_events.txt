@@ -9,8 +9,24 @@ country_event = {
 	title = es_her.0.title
 	desc = es_her.0.desc
 
+	picture = GFX_es_heretics_gesture
+
+	event_chain = heretics_of_casar_soc_chain
+
+	immediate = {
+		begin_event_chain = {
+			event_chain = "heretics_of_casar_soc_chain"
+			target = this.owner
+		}
+	}
+
 	option = {
 		name = es_her.0.a
+		tooltip = {
+			begin_event_chain = {
+				event_chain = heretics_of_casar_soc_chain
+			}
+		}
 		hidden_effect = {
 			if = {
 				limit = {
@@ -108,6 +124,38 @@ country_event = {
 				}
 			}
 			add_extra_hyperlane_to_spawned_system_effect = yes
+			create_point_of_interest = {
+				id = casar_soc.1
+				name = "casar_soc_1"
+				desc = "casar_soc_1_desc"
+				event_chain = heretics_of_casar_soc_chain
+				location = event_target:fumongus_system
+			}
 		}
+	}
+
+	option = {
+		name = es_her.0.b
+		hidden_effect = {
+			owner = {
+				end_event_chain = rubricator_chain
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.0
+	hide_window = no
+	is_triggered_only = yes
+
+	title = es_her.1.title
+	desc = es_her.1.desc
+
+	#picture = GFX_es_heretics_gesture
+
+	event_chain = heretics_of_casar_soc_chain
+	immediate = {
+		
 	}
 }

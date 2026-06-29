@@ -1,0 +1,126 @@
+namespace = eternal_sunshine_arc_sites_events
+
+fleet_event = {
+	id = eternal_sunshine_arc_sites_events.0
+	title = eternal_sunshine_arc_sites_events.0.name
+	desc = eternal_sunshine_arc_sites_events.0.desc
+	picture = GFX_es_heretics_chain
+	show_sound = event_ghost_town
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+
+	option = {
+		name = INTRIGUING
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = eternal_sunshine_arc_sites_events.1
+	title = eternal_sunshine_arc_sites_events.1.name
+	desc = eternal_sunshine_arc_sites_events.1.desc
+	picture = GFX_es_heretics_chain
+	show_sound = event_ghost_town
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+
+	option = {
+		name = INTRIGUING
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = eternal_sunshine_arc_sites_events.2
+	title = eternal_sunshine_arc_sites_events.2.name
+	desc = eternal_sunshine_arc_sites_events.2.desc
+	picture = GFX_es_heretics_chain
+	show_sound = event_ghost_town
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+
+	option = {
+		name = INTRIGUING
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = eternal_sunshine_arc_sites_events.3
+	title = eternal_sunshine_arc_sites_events.3.name
+	desc = eternal_sunshine_arc_sites_events.3.desc
+	picture = GFX_es_heretics_chain
+	show_sound = event_ghost_town
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+
+	option = {
+		name = INTRIGUING
+		small_artifact_reward = yes
+	}
+}
+
+fleet_event = {
+	id = eternal_sunshine_arc_sites_events.4
+	title = eternal_sunshine_arc_sites_events.4.name
+	desc = eternal_sunshine_arc_sites_events.4.desc
+	picture = GFX_es_heretics_chain
+	show_sound = event_ghost_town
+
+	archaeology = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		from = { set_site_progress_locked = yes }
+	}
+
+	after = {
+		from = { set_site_progress_locked = no }
+	}
+
+	option = {
+		name = INTRIGUING
+		small_artifact_reward = yes
+	}
+}

@@ -1,0 +1,4 @@
+heretics_of_casar_soc_chain = {
+	picture = GFX_es_heretics_chain
+	icon = "gfx/interface/icons/situation_log/situation_log_quest.dds"
+}

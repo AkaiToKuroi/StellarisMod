@@ -18,4 +18,18 @@ spriteTypes = {
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaysTransparent = yes
 	}
+
+	spriteType = {
+		name = "GFX_es_heretics_gesture"
+		textureFile = "gfx/event_pictures/heretics_of_casar_soc_gesture.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaysTransparent = yes
+	}
+
+	spriteType = {
+		name = "GFX_es_heretics_chain"
+		textureFile = "gfx/event_pictures/heretics_of_casar_soc_chain.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaysTransparent = yes
+	}
 }
