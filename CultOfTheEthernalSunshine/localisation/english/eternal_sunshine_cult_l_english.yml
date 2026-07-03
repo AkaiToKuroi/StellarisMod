@@ -159,6 +159,47 @@
   heretics_of_casar_soc_chain_desc:0 "A mysterious solar system seems to be hiding a powerful force that is menacing the order od our empire. The §HCult of the Eternal Sunshine will not stay still.§!"
 
   es_her.0.title: "The Gesture"
-  es_her.0.desc: "A worker aboard an orbital mining facility suffered what medical personnel initially classified as an involuntary neurological episode. Witnesses describe her abruptly ceasing all activity before turning toward the night sky and raising one arm. She remained in that position for nearly six minutes.\nWhen questioned, she repeatedly uttered a phrase that has so far resisted interpretation: "§YCasar Soc§!".\nWithin days, similar incidents were reported throughout the empire. The afflicted vary considerably in species, age, occupation, and social standing. Some recover immediately. Others retain no memory of the event. A small number have refused to speak of anything else since. The phenomenon would ordinarily be dismissed as a case of mass hysteria, were it not for one unusual detail.\nThe §HCult of the Eternal Sunshine§! has reacted with unexpected concern. Their archivists have reportedly reviewed every preserved revelation, commentary, and sacred text in their possession. No reference to Casar Soc has been found.\nThe High Luminaries have therefore issued a formal request for an investigation.\n"There can be no truth beyond the Eternal Sunshine. If this name carries meaning, it must be a lie.""
+  es_her.0.desc: "A worker aboard an orbital mining facility around [Root.Capital.GetName] suffered a strange involuntary neurological episode. Witnesses describe her abruptly ceasing all activity before turning toward the night sky and raising one arm. She remained in that position for nearly six minutes.\nWhen questioned, she repeatedly uttered a phrase that has so far resisted interpretation: "§YCasar Soc§!".\nWithin days, similar incidents were reported throughout the empire.The §HCult of the Eternal Sunshine§! has reacted with concern. Their archivists have reportedly reviewed every preserved revelation, commentary, and sacred text in their possession. No reference to Casar Soc has been found.""
   es_her.0.a: "Trace their gaze."
   es_her.0.b: "Silence those heretics."
+
+  es_her.1.title:0 "Heretics of Casar Soc: A Direction Shared"
+  es_her.1.desc:0 "The investigation has produced results: after comparing thousands of independent reports, astronomers have confirmed that every afflicted individual was gesturing toward the same coordinates, with a margin of error under the 0.01%.\nThe affected civilians appear to have no connections with one another before the event, and no trace of comunications have been found in any registry.\nAdditional analysis of the coordinates has revealed a §Ystrange binary system with two black holes§!. \nNo survey records mention its existence, no historical observations contain any evidence that it was ever there. Nevertheless, every sensor now agrees that it is. The §HCult§! pretends to send an esploration squad in order to restore stability among the scared civilians""
+  es_her.1.a:0 "Prepare an expedition."
+
+  ########################################
+  # DIG SITE
+  ########################################
+
+  es_casar_soc_digsite:0 "Dry lake ruins"
+  es_casar_soc_digsite_desc:0 "Casar Soc would look like a normal barren world, but a scan below the surface revealed several buried building of unknown origin. A psycotic subject was brought along the expedition to find the source of the signal, and he seems to be pointing at some city ruins buried in the dirt near the bed of an ancient dried lake."
+
+  eternal_sunshine_arc_sites_events.0.name:0 "Beneath the Dust"
+  eternal_sunshine_arc_sites_events.0.desc:0 "Initial scans of Casar Soc suggested the presence of unusual subsurface formations, excavation efforts have now revealed the cause: an entire §Ycity§! is buried below the sand.\nThe structures uncovered so far resemble urban architecture. Streets, towers, enclosed chambers, and open plazas have all been identified beneath the planetary crust. Strangely enough, these buildings look like they have not been built, but they seem to be emerging from the rock itself.\nSeveral researchers have noted that the structures become increasingly difficult to distinguish from deliberate architecture as excavations progress. One report concludes that the distinction may ultimately be meaningless."
+
+  eternal_sunshine_arc_sites_events.1.name:0 "Black Stars"
+  eternal_sunshine_arc_sites_events.1.desc:0 "Further excavations have uncovered extensive carvings throughout the buried structures. Most depict astronomical scenes.\nAt first glance they appear unremarkable, upon closer inspection, however, researchers noticed a recurring anomaly: §Ythe stars are wrong§!.\n\nRather than luminous bodies, the carvings depict dark circles suspended within bright skies. Black figures gather beneath them in immense numbers, with one of them always depicted with a strange §Yyellow symbol§! on its head."
+
+  eternal_sunshine_arc_sites_events.2.name:0 "The Stele"
+  eternal_sunshine_arc_sites_events.2.desc:0 "The excavation has uncovered a monolithic structure near the center of the buried complex. The object consists of a black material not currently identifiable through conventional analysis. Preliminary measurements suggest a height of approximately thirty meters, although repeated surveys have produced inconsistent results./n/nThe surface is covered in yellow markings resembling written language, but researchers have encountered unexpected difficulties while attempting transcription since Every recorded copy §Ydiffers from every other copy§!, including machine-generated reproductions."
+
+  eternal_sunshine_arc_sites_events.3.name:0 "The Translation"
+  eternal_sunshine_arc_sites_events.3.desc:0 "While tempting to translate the language on the Stele, one of the researchers started showing the same symptoms of the previous subject, with one major difference: after the spasms ended, she was able to read the writing perfectly and provided a translation:\n\n"The Light was a wound."\n"The wound was closed."\n\n"We remained."\n"We waited."\n"We are waiting."
+
+  eternal_sunshine_arc_sites_events.4.name:0 "The Yellow Face"
+  eternal_sunshine_arc_sites_events.4.desc:0 "The chamber beneath the Stele contains only a single object. §YA mask§!.\nThough it resembles polished gold, no known material matches its composition. More curious still, no two members of the expedition agree on its appearance. Some claim it bears the face of a ruler. Others that of a loved one. A few insist they are looking at themselves.\nPhotographic records offer little help. Each image appears perfectly ordinary, yet every observer describes it differently.\n\nThe archaeological team recommended that the artifact be transferred to a secure research facility for further study. Before those recommendations could be acted upon, the Cult of the Eternal Sunshine invoked its authority over matters of suspected heresy and ordered the mask seized."
+
+  ########################################
+  # SPECIAL PROJECTS
+  ########################################
+
+  COLLECTIVE_HYSTERIA_PROJECT:0 "Collective Hysteria"
+  COLLECTIVE_HYSTERIA_PROJECT_DESC:0 "Several people are manifesting psycotic symtoms, as they suddenly began shaking and pointing their fingers towards the sky while mumbling the words "§YCasar Soc§!" over and over again. There seem to be no connection between these individuals, nor geographically not demographically. We must understand what happened to these persons."
+  ########################################
+  # SOLAY SYSTEM
+  ########################################
+
+  Ila:0 "Ila"
+  Rahal:0 "Rahal"
+  casar_soc_1:0 "Mysterious force"
+  casar_soc_1_desc:0 "All of the people who showed signs of psycosis seem to have been gazing towards this system"

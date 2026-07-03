@@ -11,7 +11,7 @@ eternal_sunshine_system = {
 	}
 
 	planet = {
-		name = "Ila"
+		name = Ila
 		class = pc_black_hole
 		size = { min = 20 max = 25}
 		orbit_distance = 15
@@ -19,7 +19,7 @@ eternal_sunshine_system = {
 	}
 
 	planet = {
-		name = "Rahal"
+		name = Rahal
 		class = pc_black_hole
 		size = { min = 5 max = 10}
 		orbit_distance = 10
@@ -32,13 +32,12 @@ eternal_sunshine_system = {
 		name = "Casar Soc"
 		class = pc_barren
 		orbit_angle = {min = 90 max = 270}
+		has_ring = yes
 
 		init_effect = {
 			prevent_anomaly = yes
-			set_planet_flag = casar_soc
 			save_global_event_target_as = casar_soc
-			create_archaeological_site = rubricator_digsite
-			save_global_event_target_as = casar_soc
+			create_archaeological_site = es_casar_soc_digsite
 		}
 	}
 
