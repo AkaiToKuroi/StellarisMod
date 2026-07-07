@@ -77,3 +77,20 @@ es_strategic_defensive_investment = {
 	ship_hull_mult = 0.1
 	ship_shield_mult = 0.1
 }
+
+es_emergency_authority = {
+	icon = "gfx/interface/icons/modifiers/mod_planet_stability_mult.dds"
+	planet_stability_mult = 0.2
+	pop_happiness = -0.1
+}
+
+es_civil_authorities = {
+	icon = "gfx/interface/icons/modifiers/mod_planet_crime_add.dds"
+	planet_crime_add = 0.2
+}
+
+es_destroy_stele = {
+	icon = "gfx/interface/icons/modifiers/mod_planet_stability_mult.dds"
+	planet_stability_mult = 0.1
+	planet_devastation = 0.1
+}

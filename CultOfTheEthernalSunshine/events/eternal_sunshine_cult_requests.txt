@@ -8,6 +8,7 @@ country_event = {
 
 	trigger = {
         has_origin = origin_eternal_sunshine_cult
+		has_country_flag = es_cult_requests
     }
 
     immediate = {

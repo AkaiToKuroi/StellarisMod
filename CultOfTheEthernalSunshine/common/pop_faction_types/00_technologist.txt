@@ -1,15 +1,12 @@
 ##############################
 # Technologist Faction
 ##############################
-
 technologist = {
 	election_header = "GFX_faction_header_yellow"
 	guiding_ethic = ethic_materialist
 	visual_ethic = "technologist_visual_ethic"
-
 	unique = yes
 	support_multiplier = 1
-
 	resources = {
 		category = pop_factions
 		inline_script = pop_faction_types/shared_unity_production
@@ -27,7 +24,6 @@ technologist = {
 			mult = @crowdsourcing_multiplier
 		}
 	}
-
 	extortion_resource = {
 		category = pop_factions
 		produces = {
@@ -56,11 +52,15 @@ technologist = {
 			mult = @faction_extortion_crowdsourcing_ratio
 		}
 	}
-
 	is_potential = {
 		is_faction_allowed = yes
+		owner = {
+			NAND = {
+				has_country_flag = cult_is_technologist
+				has_country_flag = es_cult_to_be_removed
+			}
+		}
 	}
-
 	parameters = {
 		empire = {
 			type = country
@@ -73,65 +73,59 @@ technologist = {
 		is_enslaved = no
 		is_being_purged = no
 	}
-
 	can_join_faction = {
 		is_shackled_robot = no
 		can_think = yes
 	}
-
 	attraction = {
 		base = 150
-
 		modifier = {
-			factor = 10.0
+			factor = 10
 			has_pop_faction_flag = es_cult
-		} 
-
+		}
 		modifier = {
 			factor = 1.25
 			exists = from
 			from = {
 				exists = leader
-				leader = { is_ruler = yes }
+				leader = {
+					is_ruler = yes
+				}
 			}
 		}
-
 		modifier = {
 			factor = 0.75
 			exists = from
 			from = {
-				NOT = { exists = leader }
+				NOT = {
+					exists = leader
+				}
 			}
 		}
-
 		modifier = {
 			factor = 2
 			is_robot_pop_group = yes
-			owner = { is_individual_machine = no }
+			owner = {
+				is_individual_machine = no
+			}
 		}
 	}
-
 	leader = {
 		base = 100
-
 		modifier = {
-			factor = 0.0
+			factor = 0
 			is_event_leader = yes
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_ROBOTS_ALLOWED"
 		unfulfilled_title = "TECHNOLOGIST_ROBOTS_BANNED"
 		desc = "TECHNOLOGIST_ROBOTS_ALLOWED_DESC"
-
 		fulfilled_effect = 10
 		unfulfilled_effect = -30
-
 		potential = {
 			exists = owner
 		}
-
 		trigger = {
 			owner = {
 				NOR = {
@@ -141,15 +135,13 @@ technologist = {
 			}
 		}
 	}
-
-	demand = { # Unplugged: Cyberize
+	demand = {
+		# Unplugged: Cyberize
 		title = TECHNOLOGIST_UNPLUGGED_CYBERIZE
 		unfulfilled_title = TECHNOLOGIST_UNPLUGGED_NOT_CYBERIZE
 		desc = TECHNOLOGIST_UNPLUGGED_CYBERIZE_DESC
-
 		unfulfilled_effect = -20
 		fulfilled_effect = 10
-
 		potential = {
 			exists = owner
 			owner = {
@@ -159,17 +151,18 @@ technologist = {
 				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				any_situation = {
 					is_situation_type = situation_unplugged_identity
 					OR = {
-						AND = { # safely in the Cyberize stage
+						AND = {
+							# safely in the Cyberize stage
 							current_stage = unplugged_identity_stage_3
 							situation_monthly_progress > 0
 						}
-						AND = { # trending towards Cyberization and our Approach is aligned
+						AND = {
+							# trending towards Cyberization and our Approach is aligned
 							situation_monthly_progress > 0.05
 							OR = {
 								current_situation_approach = situation_unplugged_identity_discourage_change
@@ -181,27 +174,22 @@ technologist = {
 			}
 		}
 	}
-
 	# DEMAND: Faction Outraged (by a GalCom Resolution)
 	inline_script = {
 		script = pop_faction_types/demand_faction_outraged
 		FLAG = galcom_resolution_passed_anti_technologist
 	}
-
 	# DEMAND: Faction Pleased (by a GalCom Resolution)
 	inline_script = {
 		script = pop_faction_types/demand_faction_pleased
 		FLAG = galcom_resolution_passed_pro_technologist
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_TECH_LEAP"
 		unfulfilled_title = "TECHNOLOGIST_TECH_LAG"
 		desc = "TECHNOLOGIST_TECH_LEAP_DESC"
-
 		fulfilled_effect = 10
 		unfulfilled_effect = -20
-
 		potential = {
 			exists = owner
 			owner = {
@@ -209,7 +197,9 @@ technologist = {
 				any_relation = {
 					has_communications = root.owner
 					is_country_type = default
-					NOT = { has_government = gov_successor_khanate }
+					NOT = {
+						has_government = gov_successor_khanate
+					}
 					root.owner = {
 						has_intel_level = {
 							who = prev
@@ -220,14 +210,15 @@ technologist = {
 				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				NOT = {
 					any_relation = {
 						has_communications = root.owner
 						is_country_type = default
-						NOT = { has_government = gov_successor_khanate }
+						NOT = {
+							has_government = gov_successor_khanate
+						}
 						root.owner = {
 							has_intel_level = {
 								who = prev
@@ -245,23 +236,21 @@ technologist = {
 			}
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_RESEARCH_TREATIES"
 		unfulfilled_title = "TECHNOLOGIST_FEW_RESEARCH_TREATIES"
 		desc = "TECHNOLOGIST_RESEARCH_TREATIES_DESC"
-
 		fulfilled_effect = 10
 		unfulfilled_effect = -0.001
-
 		potential = {
 			exists = owner
 			owner = {
 				num_communications > 3
-				NOT = { has_valid_civic = civic_inwards_perfection }
+				NOT = {
+					has_valid_civic = civic_inwards_perfection
+				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				OR = {
@@ -283,20 +272,19 @@ technologist = {
 			}
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_NO_SYNTH_ENVY"
 		unfulfilled_title = "TECHNOLOGIST_SYNTH_ENVY"
 		desc = "TECHNOLOGIST_NO_SYNTH_ENVY_DESC"
-
 		unfulfilled_effect = -10
 		fulfilled_effect = 0.001
-
 		potential = {
-			years_passed >= 50 #otherwise, just a penalty for meeting Mechanists early
+			years_passed >= 50			#otherwise, just a penalty for meeting Mechanists early
 			exists = owner
 			owner = {
-				NOT = { has_ascension_perk = ap_synthetic_evolution }
+				NOT = {
+					has_ascension_perk = ap_synthetic_evolution
+				}
 				is_individual_machine = no
 				any_relation = {
 					has_communications = root.owner
@@ -317,7 +305,6 @@ technologist = {
 				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				any_owned_species = {
@@ -329,7 +316,6 @@ technologist = {
 			}
 		}
 	}
-
 	# Faction Demands for Ruler and Council positions.
 	inline_script = {
 		script = "pop_faction_types/global_faction_demands"
@@ -337,15 +323,12 @@ technologist = {
 		ETHIC_FANATIC = ethic_fanatic_materialist
 		ETHIC_OPPOSED = ethic_spiritualist
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_SECRET_KNOWLEDGE"
 		unfulfilled_title = "TECHNOLOGIST_NO_SECRET_KNOWLEDGE"
 		desc = "TECHNOLOGIST_SECRET_KNOWLEDGE_DESC"
-
 		fulfilled_effect = 10
 		unfulfilled_effect = -0.001
-
 		potential = {
 			exists = owner
 			owner = {
@@ -355,7 +338,6 @@ technologist = {
 				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				OR = {
@@ -365,33 +347,28 @@ technologist = {
 			}
 		}
 	}
-
 	demand = {
 		title = TECHNOLOGIST_FEDERATION
 		unfulfilled_title = TECHNOLOGIST_FEDERATION_NOT_RESEARCH
 		desc = TECHNOLOGIST_FEDERATION_DESC
-
 		fulfilled_effect = 5
 		unfulfilled_effect = -0.001
-
 		potential = {
 			exists = owner.federation
 			has_federations_dlc = yes
 		}
-
 		trigger = {
-			owner.federation = { has_federation_type = research_federation }
+			owner.federation = {
+				has_federation_type = research_federation
+			}
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_ARCANA"
 		unfulfilled_title = "TECHNOLOGIST_NO_ARCANA"
 		desc = "TECHNOLOGIST_ARCANA_DESC"
-
 		fulfilled_effect = 5
 		unfulfilled_effect = -0.001
-
 		potential = {
 			exists = owner
 			owner = {
@@ -401,7 +378,6 @@ technologist = {
 				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				OR = {
@@ -411,15 +387,12 @@ technologist = {
 			}
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_PRECURSOR_SECRETS"
 		unfulfilled_title = "TECHNOLOGIST_NO_PRECURSOR_SECRETS"
 		desc = "TECHNOLOGIST_PRECURSOR_SECRETS_DESC"
-
 		fulfilled_effect = 5
 		unfulfilled_effect = -0.001
-
 		potential = {
 			host_has_dlc = "Ancient Relics Story Pack"
 			exists = owner
@@ -437,28 +410,25 @@ technologist = {
 				}
 			}
 		}
-
 		trigger = {
 			owner = {
 				has_completed_precursor_research = yes
 			}
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_NO_RESTRICTIONS"
 		unfulfilled_title = "TECHNOLOGIST_RESTRICTIONS"
 		desc = "TECHNOLOGIST_RESTRICTIONS_DESC"
-
 		fulfilled_effect = 5
 		unfulfilled_effect = -0.001
-
 		potential = {
 			owner = {
-				NOT = { has_policy_flag = research_restriction_dangerous_encouraged }
+				NOT = {
+					has_policy_flag = research_restriction_dangerous_encouraged
+				}
 			}
 		}
-
 		trigger = {
 			exists = owner
 			owner = {
@@ -466,21 +436,17 @@ technologist = {
 			}
 		}
 	}
-
 	demand = {
 		title = "TECHNOLOGIST_REFACTORED_RESTRICTIONS"
 		unfulfilled_title = "TECHNOLOGIST_RESTRICTIONS"
 		desc = "TECHNOLOGIST_RESTRICTIONS_DESC"
-
 		fulfilled_effect = 10
 		unfulfilled_effect = -0.001
-
 		potential = {
 			owner = {
 				has_policy_flag = research_restriction_dangerous_encouraged
 			}
 		}
-
 		trigger = {
 			exists = owner
 			owner = {
@@ -488,15 +454,12 @@ technologist = {
 			}
 		}
 	}
-
 	demand = {
 		title = "COOPERATIVE_DIPLO_STANCE"
 		unfulfilled_title = "COOPERATIVE_DIPLO_STANCE"
 		desc = "COOPERATIVE_DIPLO_STANCE_DESC"
-
 		fulfilled_effect = 5
 		unfulfilled_effect = -0.001
-
 		potential = {
 			exists = owner
 			owner = {
@@ -505,18 +468,17 @@ technologist = {
 				has_policy_flag = diplo_stance_cooperative
 			}
 		}
-
 		trigger = {
 			owner = {
 				has_policy_flag = diplo_stance_cooperative
 			}
 		}
 	}
-
 	on_create = {
-		pop_faction_event = { id = factions.0 }
+		pop_faction_event = {
+			id = factions.0
+		}
 	}
-
 	on_destroy = {
 		if = {
 			limit = {
@@ -531,49 +493,67 @@ technologist = {
 			remove_modifier = suppressed_materialist
 		}
 	}
-
 	actions = {
 		embrace_faction = {
 			title = "EMBRACE_FACTION"
 			description = "EMBRACE_FACTION_DESC"
-
 			cost = {
 				unity = 5000
 			}
-
 			potential = {
 				exists = owner
 				owner = {
 					OR = {
 						is_subject = no
-						NOT = { any_agreement = { agreement_preset = preset_dominion } }
+						NOT = {
+							any_agreement = {
+								agreement_preset = preset_dominion
+							}
+						}
 					}
 				}
 			}
-
 			valid = {
 				custom_tooltip = {
 					fail_text = EMBRACE_FACTION_COOLDOWN
 					parameter:empire = {
-						NOT = { has_modifier = embraced_faction_timer }
+						NOT = {
+							has_modifier = embraced_faction_timer
+						}
 					}
 				}
-				support > 0.20
+				support > 0.2
 				parameter:empire = {
-					NOT = { has_ethic = "ethic_fanatic_materialist" }
+					NOT = {
+						has_ethic = "ethic_fanatic_materialist"
+					}
 				}
 			}
-
 			effect = {
-				add_modifier = { modifier = embraced_faction days = 3600 }
-				owner = { set_country_flag = has_embraced_faction }
+				add_modifier = {
+					modifier = embraced_faction
+					days = 3600
+				}
+				owner = {
+					set_country_flag = has_embraced_faction
+				}
 				parameter:empire = {
 					shift_ethic = ethic_materialist
 					hidden_effect = {
-						add_modifier = { modifier = embraced_faction_timer days = 3600 }
+						add_modifier = {
+							modifier = embraced_faction_timer
+							days = 3600
+						}
 						every_pop_faction = {
-							limit = { NOT = { is_same_value = root } }
-							add_modifier = { modifier = embraced_another_faction days = 3600 }
+							limit = {
+								NOT = {
+									is_same_value = root
+								}
+							}
+							add_modifier = {
+								modifier = embraced_another_faction
+								days = 3600
+							}
 						}
 					}
 				}
@@ -591,24 +571,27 @@ technologist = {
 									level >= 1
 								}
 							}
-							country_event = { id = factions.2000 }
+							country_event = {
+								id = factions.2000
+							}
 						}
 					}
 				}
 			}
-
 			ai_weight = {
 				base = 1
 				modifier = {
 					factor = 0
-					support < 0.50
+					support < 0.5
 					owner = {
 						has_ethic = ethic_materialist
 					}
 				}
 				modifier = {
 					factor = 0
-					owner = { has_valid_civic = civic_fanatic_purifiers }
+					owner = {
+						has_valid_civic = civic_fanatic_purifiers
+					}
 				}
 				modifier = {
 					factor = 0
@@ -623,7 +606,6 @@ technologist = {
 		promote_faction = {
 			title = "PROMOTE_FACTION"
 			description = "PROMOTE_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				parameter:empire = {
@@ -633,14 +615,17 @@ technologist = {
 					}
 				}
 			}
-
 			effect = {
-				owner = { set_country_flag = has_promoted_faction }
+				owner = {
+					set_country_flag = has_promoted_faction
+				}
 				parameter:empire = {
-					add_modifier = { modifier = promoted_materialist days = -1 }
+					add_modifier = {
+						modifier = promoted_materialist
+						days = -1
+					}
 				}
 			}
-
 			ai_weight = {
 				base = 0
 			}
@@ -648,20 +633,17 @@ technologist = {
 		cancel_promote_faction = {
 			title = "CANCEL_PROMOTE_FACTION"
 			description = "CANCEL_PROMOTE_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				parameter:empire = {
 					has_modifier = promoted_materialist
 				}
 			}
-
 			effect = {
 				parameter:empire = {
 					remove_modifier = promoted_materialist
 				}
 			}
-
 			ai_weight = {
 				base = 0
 			}
@@ -669,7 +651,6 @@ technologist = {
 		suppress_faction = {
 			title = "SUPPRESS_FACTION"
 			description = "SUPPRESS_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				parameter:empire = {
@@ -679,14 +660,18 @@ technologist = {
 					}
 				}
 			}
-
 			effect = {
-				add_modifier = { modifier = suppressed_faction days = -1 }
+				add_modifier = {
+					modifier = suppressed_faction
+					days = -1
+				}
 				parameter:empire = {
-					add_modifier = { modifier = suppressed_materialist days = -1 }
+					add_modifier = {
+						modifier = suppressed_materialist
+						days = -1
+					}
 				}
 			}
-
 			ai_weight = {
 				base = 0
 			}
@@ -694,21 +679,18 @@ technologist = {
 		cancel_suppress_faction = {
 			title = "CANCEL_SUPPRESS_FACTION"
 			description = "CANCEL_SUPPRESS_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				parameter:empire = {
 					has_modifier = suppressed_materialist
 				}
 			}
-
 			effect = {
 				remove_modifier = suppressed_faction
 				parameter:empire = {
 					remove_modifier = suppressed_materialist
 				}
 			}
-
 			ai_weight = {
 				base = 0
 			}
@@ -717,7 +699,6 @@ technologist = {
 		extort_faction = {
 			title = "EXTORT_FACTION"
 			description = "EXTORT_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				owner = {
@@ -730,21 +711,19 @@ technologist = {
 				}
 				is_faction_extorted = no
 			}
-
 			effect = {
 				set_faction_extorted = yes
 				custom_tooltip = physics_research_extortion_tt
 				custom_tooltip = ONLY_ONE_EXTORTED_FACTION_TT
 			}
-
 			ai_weight = {
 				base = 0
 			}
 		}
-		extort_faction_crowdsourcing = { #Crowdsourcing version
+		extort_faction_crowdsourcing = {
+			#Crowdsourcing version
 			title = "EXTORT_FACTION"
 			description = "EXTORT_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				owner = {
@@ -757,13 +736,11 @@ technologist = {
 				}
 				is_faction_extorted = no
 			}
-
 			effect = {
 				set_faction_extorted = yes
 				custom_tooltip = crowdsourced_extortion_tt
 				custom_tooltip = ONLY_ONE_EXTORTED_FACTION_TT
 			}
-
 			ai_weight = {
 				base = 0
 			}
@@ -771,7 +748,6 @@ technologist = {
 		cancel_extort_faction = {
 			title = "CANCEL_EXTORT_FACTION"
 			description = "CANCEL_EXTORT_FACTION_DESC"
-
 			potential = {
 				exists = owner
 				owner = {
@@ -780,11 +756,9 @@ technologist = {
 				}
 				is_faction_extorted = yes
 			}
-
 			effect = {
 				set_faction_extorted = no
 			}
-
 			ai_weight = {
 				base = 0
 			}

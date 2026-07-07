@@ -36,6 +36,14 @@
 
   es_strategic_defensive_investment:0 "Increase ships' Hull and Shields by 10% each"
 
+  es_emergency_authority:0 "REPLACE_ME"
+
+  es_civil_authorities:0 "REPLACE_ME"
+
+  es_destroy_stele:0 "REPLACE_ME"
+
+  es_recruitment_campaign:0 "REPLACE_ME"
+
   ########################################
   # FACTION EVENTS
   ########################################
@@ -159,13 +167,41 @@
   heretics_of_casar_soc_chain_desc:0 "A mysterious solar system seems to be hiding a powerful force that is menacing the order od our empire. The §HCult of the Eternal Sunshine will not stay still.§!"
 
   es_her.0.title: "The Gesture"
-  es_her.0.desc: "A worker aboard an orbital mining facility around [Root.Capital.GetName] suffered a strange involuntary neurological episode. Witnesses describe her abruptly ceasing all activity before turning toward the night sky and raising one arm. She remained in that position for nearly six minutes.\nWhen questioned, she repeatedly uttered a phrase that has so far resisted interpretation: "§YCasar Soc§!".\nWithin days, similar incidents were reported throughout the empire.The §HCult of the Eternal Sunshine§! has reacted with concern. Their archivists have reportedly reviewed every preserved revelation, commentary, and sacred text in their possession. No reference to Casar Soc has been found.""
+  es_her.0.desc: "A worker aboard an orbital mining facility around [Root.Capital.GetName] suffered a strange involuntary neurological episode. Witnesses describe her abruptly ceasing all activity before turning toward the night sky and raising one arm. She remained in that position for nearly six minutes.\nWhen questioned, she repeatedly uttered a phrase that has so far resisted interpretation: "§YCasar Soc§!".\nWithin days, similar incidents were reported throughout the empire.The §HCult of the Eternal Sunshine§! has reacted with concern. Their archivists have reportedly reviewed every preserved revelation, commentary, and sacred text in their possession. No reference to Casar Soc has been found."
   es_her.0.a: "Trace their gaze."
   es_her.0.b: "Silence those heretics."
 
   es_her.1.title:0 "Heretics of Casar Soc: A Direction Shared"
-  es_her.1.desc:0 "The investigation has produced results: after comparing thousands of independent reports, astronomers have confirmed that every afflicted individual was gesturing toward the same coordinates, with a margin of error under the 0.01%.\nThe affected civilians appear to have no connections with one another before the event, and no trace of comunications have been found in any registry.\nAdditional analysis of the coordinates has revealed a §Ystrange binary system with two black holes§!. \nNo survey records mention its existence, no historical observations contain any evidence that it was ever there. Nevertheless, every sensor now agrees that it is. The §HCult§! pretends to send an esploration squad in order to restore stability among the scared civilians""
+  es_her.1.desc:0 "The investigation has produced results: after comparing thousands of independent reports, astronomers have confirmed that every afflicted individual was gesturing toward the same coordinates, with a margin of error under the 0.01%.\nThe affected civilians appear to have no connections with one another before the event, and no trace of comunications have been found in any registry.\nAdditional analysis of the coordinates has revealed a §Ystrange binary system with two black holes§!. \nNo survey records mention its existence, no historical observations contain any evidence that it was ever there. Nevertheless, every sensor now agrees that it is. The §HCult§! pretends to send an exploration squad in order to restore stability among the scared civilians"
   es_her.1.a:0 "Prepare an expedition."
+
+  es_her.2.title:0 "Heretics of Casar Soc: Turash"
+  es_her.2.desc:0 "The Mask recovered from beneath the Black Stele has disappeared.\n\nAccording to the security logs, the vault containing the artifact was never opened, no alarms were triggered, and no unauthorized personnel entered the facility. Nevertheless, the Mask is gone.\n\nOnly hours later, every public display across the empire simultaneously interrupted its broadcast. A masked figure appeared on every screen, identifying himself only as §YTurash§!.\nSpeaking with unsettling calm, he claimed that Casar Soc had not been destroyed, but saved. The Black Stele, he insisted, was never a warning—it was a gift. Declaring the Eternal Sunshine blind to the truth, he announced the birth of a new movement: the Witnesses of Salvation, dedicated to offering the same salvation to the entire galaxy.\n\nThe transmission ended without revealing its origin. Despite every effort, our intelligence services have found no trace of Turash or the stolen Mask."
+  es_her.2.a:0 "Find Turash before this spreads any further."
+
+  es_her.3.title:0 "Heretics of Casar Soc: Rise of the Witnesses"
+  es_her.3.desc:0 "The §HWitnesses of Salvation§! have spread with alarming speed.\nNew followers are appearing across the empire despite the absence of any formal organization. They claim to share the same recurring dream: a silent city beneath two black stars, where a masked figure waits beside a great stone monument.\n\nAt the same time, reports of the strange neurological episodes continue to rise. More troubling still, members of the Eternal Sunshine have begun disappearing. Those recovered are invariably found dead beneath crude yellow symbols resembling the markings carved into the Stele on Casar Soc.\n\nThe §HHigh Luminaries of the Cult§! insist that the Witnesses are no ordinary heretics and demand emergency powers to suppress the movement before the unrest grows into open rebellion."
+  es_her.3.a:0 "Grant the Cult emergency authority."
+  es_her.3.b:0 "Civil authorities will handle this."
+
+  es_her.4.title:0 "Heretics of Casar Soc: War of the Shadows"
+  es_her.4.desc:0 "Violence between the §HEternal Sunshine§! and the §HWitnesses!§ has spread across several worlds. Local authorities are struggling to contain the unrest as both factions carry out assassinations, kidnappings, and acts of sabotage against one another.\n\n§YTurash§! has resurfaced through another empire-wide transmission. He claims the Witnesses have learned the true purpose of the Black Stele and are constructing another in its image. Captured followers insist they were never given plans for the monument. Each simply "remembered" the part they were meant to build, yet every recovered fragment fits together perfectly.\n\nThe §YHigh Luminaries§! urge us to destroy the structure before it is completed. Turash claims it will reveal the truth that the Eternal Sunshine has hidden for generations."
+  es_her.4.a:0 "Destroy every construction site we can find."
+  es_her.4.b:0 "Observe the construction before intervening."
+  es_her.4.c:0 "Allow the Cult to deal with this."
+
+  es_her.5.title:0 "Heretics of Casar Soc: The Sign"
+  es_her.5.desc:0 "The new §YStele§! is complete.\n\nThough smaller than the monument discovered on Casar Soc, it bears the same yellow symbol carved into its surface. Turash has announced his intention to reveal the Sign to the entire empire, claiming that it does not spread madness, but remembrance.\n\nThe Eternal Sunshine vehemently disagrees. According to the High Luminaries, exposing the Sign would unleash a memetic hazard capable of shattering the foundations of our civilization.\n\nBoth factions have gathered around the monument, and open battle has already begun. Before long, one side will seize control of the Stele.\nThe future of both movements now rests with us."
+  es_her.5.a:0 "Stand with the Witnesses of Salvation."
+  es_her.5.b:0 "Stand with the Eternal Sunshine."
+
+  es_her.6.title:0 "Heretics of Casar Soc: Salvation"
+  es_her.6.desc:0 "The §HWitnesses§! prevailed. As the last defenders of the §HEternal Sunshine§! fell, §YTurash§! approached the completed Stele wearing the stolen §YMask§!. Witnesses report that he simply placed a hand upon the monument before a low resonance spread across the battlefield.\n\nEvery member of the Witnesses turned toward the Stele. Then, without light, sound, or any detectable energy release, they vanished.\nThe Stele disappeared with them.\nWhether Turash fulfilled his promise of salvation or led his followers to oblivion remains impossible to determine. Only the §YMask§! was found, resting shattered upon the bare ground where the monument had stood."
+  es_her.6.a:0 "At last, they've been saved"
+
+  es_her.7.title:0 "May the Sun Shine Forever"
+  es_her.7.desc:0 "Imperial forces, supported by the §HEternal Sunshine§!, seized the Stele before Turash could complete his work. The surviving §HWitnesses§! were captured, and their leader was executed shortly after refusing to renounce his beliefs.\n\nThe unfinished monument has been dismantled, and reports of the strange dreams have already begun to decline. With the Witnesses destroyed, the §HEternal Sunshine§! has declared the heresy ended.\n\nThe stolen §YMask§! was recovered among Turash's possessions. The High Luminaries insist it should be destroyed, while our scientific advisors argue that an artifact of such unusual properties deserves further study.\nIts final fate now rests in our hands."
+  es_her.7.a:0 "May the Sun shine forever."
 
   ########################################
   # DIG SITE
@@ -203,3 +239,10 @@
   Rahal:0 "Rahal"
   casar_soc_1:0 "Mysterious force"
   casar_soc_1_desc:0 "All of the people who showed signs of psycosis seem to have been gazing towards this system"
+
+  ########################################
+  # RELICS
+  ########################################
+
+  es_yellow_mask:0 "Yellow Mask"
+  es_yellow_mask_desc:0 "A mysterious artifact found on Casar Soc. Any person looking at it will describe a different face"

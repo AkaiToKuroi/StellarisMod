@@ -1,0 +1,49 @@
+es_yellow_mask = {
+	activation_duration = @triumph_duration
+	portrait = GFX_relic_yellow_mask
+	sound = "relic_activation_modularium"
+	can_be_stolen = yes
+
+	resources = {
+		category = relics
+		# Activation cost
+		cost = {
+			unity = @activation_cost
+		}
+	}
+
+	ai_weight = {
+		weight = 100
+	}
+
+	triggered_country_modifier = {
+		potential = {
+			always = yes
+		}
+		country_unity_produces_mult = 0.10
+	}
+
+	score = 2000
+
+	active_effect = {
+		add_monthly_resource_mult = {
+			resource = unity
+			value = @tier5unityreward
+			min = @tier5unitymin
+			max = @tier5unitymax
+		}
+		custom_tooltip = relic_triumph_cooldown
+		hidden_effect = {
+			add_modifier = {
+				modifier = "relic_activation_cooldown"
+				days = @triumph_duration
+			}
+		}
+	}
+
+	possible = {
+		owner = {
+			has_origin = origin_eternal_sunshine_cult
+		}
+	}
+}

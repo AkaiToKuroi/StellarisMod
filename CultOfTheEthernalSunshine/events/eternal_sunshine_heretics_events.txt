@@ -1,5 +1,4 @@
 namespace = eternal_sunshine_heretics_events
-
 country_event = {
 	id = eternal_sunshine_heretics_events.0
 	hide_window = no
@@ -8,7 +7,6 @@ country_event = {
 	desc = es_her.0.desc
 	picture = GFX_es_heretics_gesture
 	event_chain = heretics_of_casar_soc_chain
-
 	option = {
 		name = es_her.0.a
 		tooltip = {
@@ -30,7 +28,6 @@ country_event = {
 			}
 		}
 	}
-
 	option = {
 		name = es_her.0.b
 		hidden_effect = {
@@ -160,5 +157,155 @@ country_event = {
 			}
 			add_extra_hyperlane_to_spawned_system_effect = yes
 		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.2
+	hide_window = no
+	is_triggered_only = yes
+	title = es_her.2.title
+	desc = es_her.2.desc
+	picture = GFX_es_heretics_gesture
+	event_chain = heretics_of_casar_soc_chain
+	option = {
+		name = es_her.2.a
+	}
+	after = {
+		country_event = {
+			id = eternal_sunshine_heretics_events.3
+			days = 300
+			random = 40
+		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.3
+	hide_window = no
+	is_triggered_only = yes
+	title = es_her.3.title
+	desc = es_her.3.desc
+	picture = GFX_es_heretics_gesture
+	event_chain = heretics_of_casar_soc_chain
+	option = {
+		name = es_her.3.a
+		every_owned_planet = {
+			add_modifier = {
+				modifier = es_emergency_authority
+				days = 300
+			}
+		}
+	}
+	option = {
+		name = es_her.3.b
+		every_owned_planet = {
+			add_modifier = {
+				modifier = es_civil_authorities
+				days = 300
+			}
+		}
+	}
+	after = {
+		country_event = {
+			id = eternal_sunshine_heretics_events.4
+			days = 300
+			random = 40
+		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.4
+	hide_window = no
+	is_triggered_only = yes
+	title = es_her.4.title
+	desc = es_her.4.desc
+	picture = GFX_es_heretics_gesture
+	event_chain = heretics_of_casar_soc_chain
+	option = {
+		name = es_her.4.a
+		every_owned_planet = {
+			add_modifier = {
+				modifier = es_destroy_stele
+				days = 300
+			}
+		}
+	}
+	option = {
+		name = es_her.4.b
+		add_resource = {
+			physics_research = 1500
+			society_research = 1500
+		}
+	}
+	after = {
+		country_event = {
+			id = eternal_sunshine_heretics_events.5
+			days = 300
+			random = 40
+		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.5
+	hide_window = no
+	is_triggered_only = yes
+	title = es_her.5.title
+	desc = es_her.5.desc
+	picture = GFX_es_heretics_gesture
+	event_chain = heretics_of_casar_soc_chain
+	option = {
+		name = es_her.5.a
+		country_event = {
+			id = eternal_sunshine_heretics_events.6
+			days = 300
+			random = 40
+		}
+	}
+	option = {
+		name = es_her.5.b
+		country_event = {
+			id = eternal_sunshine_heretics_events.7
+			days = 300
+			random = 40
+		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.6
+	hide_window = no
+	is_triggered_only = yes
+	title = es_her.6.title
+	desc = es_her.6.desc
+	picture = GFX_es_heretics_gesture
+	event_chain = heretics_of_casar_soc_chain
+	option = {
+		name = es_her.6.a
+		set_country_flag = es_cult_to_be_removed
+		add_relic = es_yellow_mask
+		hidden_effect = {
+			remove_modifier = es_government_ethic_attraction
+			every_owned_planet = {
+				every_owned_pop_group = {
+					force_faction_evaluation = yes
+				}
+			}
+		}
+	}
+}
+
+country_event = {
+	id = eternal_sunshine_heretics_events.7
+	hide_window = no
+	is_triggered_only = yes
+	title = es_her.7.title
+	desc = es_her.7.desc
+	picture = GFX_es_heretics_gesture
+	event_chain = heretics_of_casar_soc_chain
+	option = {
+		name = es_her.7.a
 	}
 }

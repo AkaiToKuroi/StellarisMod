@@ -1,7 +1,7 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_eternal_sunshine_origin"
-		texturefile = "gfx/event_pictures/origins/eternal_sunshine_origin.dds"
+		texturefile = "gfx/event_pictures/origins/ethernal_sunshine_origin.dds"
 		alwaystransparent = yes
 	}
 

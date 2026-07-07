@@ -117,6 +117,13 @@ fleet_event = {
 
 	after = {
 		from = { set_site_progress_locked = no }
+		owner = {
+			country_event = {
+				id = eternal_sunshine_heretics_events.3
+				days = 300
+				random = 40
+			}
+		}
 	}
 
 	option = {
