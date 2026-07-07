@@ -1,6 +1,6 @@
 ﻿l_english:
   origin_eternal_sunshine_cult:0 "Cult of the Eternal Sunshine"
-  origin_eternal_sunshine_cult_desc:0 "This society reached stability through faith and devotion. (REPLACE)"
+  origin_eternal_sunshine_cult_desc:0 "This society reached stability through faith and devotion, guided by the radiant teachings of the Eternal Sunshine. Every citizen knows their place within the sacred order, and every triumph is offered in devotion to the light that promises salvation. The Cult's demands shape the destiny of the empire, rewarding unwavering faith with miraculous relics and divine favor. Yet should devotion falter, doubt may spread through the shadows, and heresy will threaten to extinguish the light from within."
 
   ########################################
   # MODIFIERS
@@ -36,13 +36,15 @@
 
   es_strategic_defensive_investment:0 "Increase ships' Hull and Shields by 10% each"
 
-  es_emergency_authority:0 "REPLACE_ME"
+  es_emergency_authority:0 "Increase stability by 20%, reduce happiness by 10%"
 
-  es_civil_authorities:0 "REPLACE_ME"
+  es_civil_authorities:0 "Increase crime by 20%"
 
-  es_destroy_stele:0 "REPLACE_ME"
+  es_destroy_stele:0 "Increase stability and devastation by 10%"
 
-  es_recruitment_campaign:0 "REPLACE_ME"
+  es_recruitment_campaign:0 "Increase happiness by 10%"
+
+  cult_satisfied_modifier:0 "Permanently increase happiness by 10%"
 
   ########################################
   # FACTION EVENTS
@@ -196,11 +198,11 @@
   es_her.5.b:0 "Stand with the Eternal Sunshine."
 
   es_her.6.title:0 "Heretics of Casar Soc: Salvation"
-  es_her.6.desc:0 "The §HWitnesses§! prevailed. As the last defenders of the §HEternal Sunshine§! fell, §YTurash§! approached the completed Stele wearing the stolen §YMask§!. Witnesses report that he simply placed a hand upon the monument before a low resonance spread across the battlefield.\n\nEvery member of the Witnesses turned toward the Stele. Then, without light, sound, or any detectable energy release, they vanished.\nThe Stele disappeared with them.\nWhether Turash fulfilled his promise of salvation or led his followers to oblivion remains impossible to determine. Only the §YMask§! was found, resting shattered upon the bare ground where the monument had stood."
+  es_her.6.desc:0 "The §HWitnesses§! prevailed. As the last defenders of the §HEternal Sunshine§! fell, §YTurash§! approached the completed Stele wearing the stolen §YMask§!. Witnesses report that he simply placed a hand upon the monument before a low resonance spread across the battlefield.\n\nEvery member of the Witnesses turned toward the Stele. Then, without light, sound, or any detectable energy release, they vanished.\nThe Stele disappeared with them.\nWhether Turash fulfilled his promise of salvation or led his followers to oblivion remains impossible to determine. Only the §YMask§! was found, resting upon the bare ground where the monument had stood.\n\nWithout the Cult, people are now free to form new §Yfactions§!."
   es_her.6.a:0 "At last, they've been saved"
 
   es_her.7.title:0 "May the Sun Shine Forever"
-  es_her.7.desc:0 "Imperial forces, supported by the §HEternal Sunshine§!, seized the Stele before Turash could complete his work. The surviving §HWitnesses§! were captured, and their leader was executed shortly after refusing to renounce his beliefs.\n\nThe unfinished monument has been dismantled, and reports of the strange dreams have already begun to decline. With the Witnesses destroyed, the §HEternal Sunshine§! has declared the heresy ended.\n\nThe stolen §YMask§! was recovered among Turash's possessions. The High Luminaries insist it should be destroyed, while our scientific advisors argue that an artifact of such unusual properties deserves further study.\nIts final fate now rests in our hands."
+  es_her.7.desc:0 "Imperial forces, supported by the §HEternal Sunshine§!, seized the Stele before Turash could complete his work. The surviving §HWitnesses§! were captured, and their leader was executed shortly after refusing to renounce his beliefs.\n\nThe unfinished monument has been dismantled, and reports of the strange dreams have already begun to decline. With the Witnesses destroyed, the §HEternal Sunshine§! has declared the heresy ended.\n\nThe stolen §YMask§! was recovered among Turash's possessions, the High Luminaries have ordered its destruction. Peace has prevailed, and the order is restored."
   es_her.7.a:0 "May the Sun shine forever."
 
   ########################################

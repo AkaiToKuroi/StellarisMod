@@ -1,34 +1,48 @@
 spriteTypes = {
 	spriteType = {
 		name = "GFX_eternal_sunshine_origin"
-		texturefile = "gfx/event_pictures/origins/ethernal_sunshine_origin.dds"
+		texturefile = "gfx/event_pictures/origins/eternal_sunshine_origin.dds"
 		alwaystransparent = yes
 	}
-
 	spriteType = {
 		name = "GFX_eternal_sunshine_cult_created"
 		textureFile = "gfx/event_pictures/cult_created.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaysTransparent = yes
 	}
-
 	spriteType = {
 		name = "GFX_eternal_sunshine_cult_request"
 		textureFile = "gfx/event_pictures/cult_request.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaysTransparent = yes
 	}
-
 	spriteType = {
 		name = "GFX_es_heretics_gesture"
 		textureFile = "gfx/event_pictures/heretics_of_casar_soc_gesture.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaysTransparent = yes
 	}
-
 	spriteType = {
 		name = "GFX_es_heretics_chain"
 		textureFile = "gfx/event_pictures/heretics_of_casar_soc_chain.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaysTransparent = yes
+	}
+	spriteType = {
+		name = "GFX_es_casar_soc"
+		textureFile = "gfx/event_pictures/casar_soc.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaysTransparent = yes
+	}
+	spriteType = {
+		name = "GFX_es_turash"
+		textureFile = "gfx/event_pictures/turash.dds"
+		masking_texture = "gfx/interface/situation_log/event_mask.dds"
+		alwaysTransparent = yes
+	}
+		spriteType = {
+		name = "GFX_es_war"
+		textureFile = "gfx/event_pictures/es_war.dds"
 		masking_texture = "gfx/interface/situation_log/event_mask.dds"
 		alwaysTransparent = yes
 	}

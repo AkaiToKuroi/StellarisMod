@@ -42,8 +42,6 @@ es_yellow_mask = {
 	}
 
 	possible = {
-		owner = {
-			has_origin = origin_eternal_sunshine_cult
-		}
+
 	}
 }

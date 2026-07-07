@@ -8,6 +8,12 @@ cult_disappointment_modifier = {
 	faction_approval = -0.25
 }
 
+cult_satisfied_modifier = {
+	icon = "gfx/interface/icons/planet_modifiers/disappointed_cult_icon.png"
+	icon_frame = 1
+	pop_happiness = 0.1
+}
+
 es_show_of_strenght = {
 	icon = "gfx/interface/icons/modifiers/mod_owned_ship_fire_rate_mult.dds"
 	ship_fire_rate_mult = 0.1
